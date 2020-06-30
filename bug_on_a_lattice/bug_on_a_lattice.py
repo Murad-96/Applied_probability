@@ -41,7 +41,7 @@ def main():
         #print lattice.get(first_point)
         #print second_point
 
-    print 'The probability of the bug getting to point A in less than 2 moves or less is {}'.format(round(float(wins)/n_sims, 4))
+    print 'The probability of the bug getting to point A in 2 moves or less is {}'.format(round(float(wins)/n_sims, 4))
 
 if __name__ == '__main__':
     main()
